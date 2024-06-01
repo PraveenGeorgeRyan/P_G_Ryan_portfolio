@@ -18,6 +18,7 @@ const Project = () => {
           tech3="Tailwind CSS"
           tech4="TypeScript"
           image="/images/p1.png"
+          description="This AI-powered SAAS application streamlines data analysis and decision-making processes, providing valuable insights for businesses."
         />
         <ProjectCard
           title="Video Calling Application"
@@ -26,6 +27,7 @@ const Project = () => {
           tech3="Tailwind CSS"
           tech4="TypeScript"
           image="/images/p2.png"
+          description="Built for seamless communication, this video calling application offers high-quality video chat with advanced features."
         />
         <ProjectCard
           title="FullStack Food Delivery App"
@@ -34,6 +36,7 @@ const Project = () => {
           tech3="Tailwind CSS"
           tech4="MongoDB"
           image="/images/p4.png"
+          description="This full-stack food delivery application allows users to browse menus, place orders, and track deliveries, all within a user-friendly interface."
         />
         <ProjectCard
           title="Travel Website"
@@ -42,6 +45,7 @@ const Project = () => {
           tech3="Tailwind CSS"
           tech4="MongoDB"
           image="/images/p3.png"
+          description="Plan your dream vacation with this interactive travel website. Explore destinations, book accommodations, and discover hidden gems with ease."
         />
       </div>
     </div>

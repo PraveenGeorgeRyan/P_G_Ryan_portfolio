@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import toast from "react-hot-toast";
@@ -18,7 +19,7 @@ const Contact = () => {
     const message = event.target.elements.message.value;
 
     // Fetch
-    const res = await fetch("http://localhost:3000/api/email", {
+    const res = await fetch("https://p-g-ryan-portfolio.vercel.app/api/email", {
       method: "POST",
       body: JSON.stringify({
         senderEmail,
@@ -49,9 +50,10 @@ const Contact = () => {
               Make Your <span className="text-yellow-400">Brand</span> Brilliant
             </h1>
             <p className="mt-4 text-[15px] text-white opacity-75">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-              molestiae blanditiis enim dolores quo recusandae assumenda esse
-              laboriosam, tempora eos?
+              Ready to take your project to the next level? I'm passionate about
+              helping businesses achieve their goals through creative and
+              effective solutions. Let's discuss how I can turn your vision into
+              reality.
             </p>
             <h1 className="my-8 text-[30px] font-bold text-yellow-300 ">
               +91 9705201373
@@ -60,7 +62,7 @@ const Contact = () => {
           <div>
             {/* <p className="heading__mini">Contact me</p> */}
             <p className="text-white">
-              Please Contact me directly at{" "}
+              Feel free to reach out directly at{" "}
               <a
                 className="text-yellow-400 underline"
                 href="mailto:p.g.ryan333gmail.com"

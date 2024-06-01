@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/16/solid";
 import React from "react";
 
@@ -13,10 +14,8 @@ const Footer = () => {
             Ryan
           </div>
           <h1 className="mt-2 text-[14px] text-white opacity-70">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            quidem dolorem tempora praesentium repellendus, libero distinctio
-            vero ipsa sunt animi nesciunt labore voluptatum laboriosam veniam,
-            voluptates quam earum quibusdam esse.
+            I help turn ideas into beautiful and functional websites.Let's
+            collaborate to bring your vision to life!
           </h1>
           <p className="mt-[1.3rem] font-semibold text-yellow-300 underline">
             <a

@@ -8,6 +8,7 @@ interface ProjectCardProps {
   tech3: string;
   tech4: string;
   image: string;
+  description?: string; // Optional property for description
 }
 
 const ProjectCard = ({
@@ -17,6 +18,7 @@ const ProjectCard = ({
   tech3,
   tech4,
   image,
+  description,
 }: ProjectCardProps) => {
   return (
     <div className="mx-auto grid w-4/5 grid-cols-1 items-center gap-10 pt-20 lg:grid-cols-2">
@@ -31,14 +33,7 @@ const ProjectCard = ({
       </div>
       <div>
         <h1 className="text-[25px] text-white">{title}</h1>
-        <p className="mt-4 text-[15px] text-white opacity-65">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam odit
-          ullam reiciendis commodi saepe suscipit culpa doloribus atque harum
-          numquam quis eveniet esse dicta sit, itaque, accusantium, animi
-          tempora maxime provident architecto veritatis accusamus. Commodi.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
-          eius!
-        </p>
+        <p className="mt-4 text-[15px] text-white opacity-65">{description}</p>
         <div className="mt-[1.3rem] grid grid-cols-2 gap-8 sm:grid-cols-3 xl:grid-cols-4">
           <h1 className="flex items-center justify-center rounded-lg bg-blue-700 px-6 py-3 text-white">
             {tech1}

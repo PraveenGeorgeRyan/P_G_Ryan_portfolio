@@ -4,6 +4,17 @@ import Link from "next/link";
 import TypeWriteEffect from "./Helper/TypeWriteEffect";
 
 const Hero = () => {
+  const handleDownloadCV = () => {
+    const cvUrl = "/PraveenGeorgeRyan.pdf";
+
+    // Create a new anchor element (a tag) dynamically
+    const link = document.createElement("a");
+    link.href = cvUrl;
+    link.download = "/PraveenGeorgeRyan.pdf"; // Set the downloaded file name
+
+    // Simulate a click event on the anchor element to trigger download
+    link.click();
+  };
   return (
     <div className="custom-bg h-[85vh] w-screen pt-[4vh] md:h-screen md:pt-[12vh]">
       <div className="mx-auto flex h-full w-4/5 flex-col justify-center">
@@ -32,15 +43,16 @@ const Hero = () => {
                 <button
                   data-aos="zoom-in"
                   data-aos-delay="1200"
-                  className="relative flex h-[50px] w-40 items-center justify-center overflow-hidden rounded-md bg-green-600   font-semibold text-white shadow-2xl transition-all before:absolute before:size-0 before:rounded-full before:bg-red-500 before:duration-500 before:ease-out hover:before:size-56"
+                  className="relative flex h-[50px] w-40 items-center justify-center overflow-hidden rounded-md bg-green-600   font-semibold text-white shadow-2xl transition-all before:absolute before:size-0 before:rounded-full before:bg-gray-800 before:duration-500 before:ease-out hover:before:size-56"
                 >
                   <span className="relative z-10">Contact me</span>
                 </button>
               </Link>
               <button
+                onClick={handleDownloadCV} // Call the handleDownloadCV function on click
                 data-aos="zoom-out"
                 data-aos-delay="1600"
-                className="before:ease relative h-12 w-40 overflow-hidden rounded-md bg-sky-500  font-semibold text-white shadow-2xl before:absolute before:left-0 before:-ml-2 before:size-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-yellow-400 before:transition-all before:duration-300 hover:text-white hover:shadow-black hover:before:-rotate-180"
+                className="before:ease relative h-12 w-40 overflow-hidden rounded-md bg-sky-500  font-semibold text-white shadow-2xl before:absolute before:left-0 before:-ml-2 before:size-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-gray-800 before:transition-all before:duration-300 hover:text-white hover:shadow-black hover:before:-rotate-180"
               >
                 <span className="relative z-10">Download CV</span>
               </button>
