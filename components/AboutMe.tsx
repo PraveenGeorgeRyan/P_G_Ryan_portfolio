@@ -14,14 +14,15 @@ const AboutMe = () => {
               your business
             </h1>
             <p className="mt-[1.3rem] text-[15px] text-white opacity-75">
-              I'm a passionate web developer with almost 2 years of experience,
-              bringing expertise in frontend (UI/React), backend, and app
-              development. I leverage the MERN Stack to create beautiful,
-              user-friendly websites and applications that deliver real results.
-              With a perfect completion rate on all projects I've undertaken and
-              35+ satisfied clients, I'm dedicated to turning your ideas into
-              reality. I bring a positive, enthusiastic attitude and a love for
-              web development, ensuring a smooth and successful collaboration.
+              I'm a passionate web developer with almost 1.5 years of
+              experience, bringing expertise in frontend (UI/React), backend,
+              and app development. I leverage the MERN Stack to create
+              beautiful, user-friendly websites and applications that deliver
+              real results. With a perfect completion rate on all projects I've
+              undertaken and 15+ satisfied clients, I'm dedicated to turning
+              your ideas into reality. I bring a positive, enthusiastic attitude
+              and a love for web development, ensuring a smooth and successful
+              collaboration.
             </p>
             <div className="mt-8 space-y-3">
               <div className="flex items-center space-x-4">
@@ -49,7 +50,7 @@ const AboutMe = () => {
                 data-aos-anchor-placement="top-center"
                 className="bg-yellow-500 p-6 text-center"
               >
-                <p className="text-[50px] font-bold text-black">2</p>
+                <p className="text-[50px] font-bold text-black">1.5</p>
                 <p className="text-[20px] font-semibold text-black">
                   Years Experience
                 </p>
@@ -60,7 +61,7 @@ const AboutMe = () => {
                 data-aos-delay="100"
                 className="bg-yellow-500 p-6 text-center"
               >
-                <p className="text-[50px] font-bold text-black">20+</p>
+                <p className="text-[50px] font-bold text-black">15+</p>
                 <p className="text-[20px] font-semibold text-black">
                   Happy Clients
                 </p>
@@ -71,7 +72,7 @@ const AboutMe = () => {
                 data-aos-delay="200"
                 className="bg-yellow-500 p-6 text-center"
               >
-                <p className="text-[50px] font-bold text-black">22+</p>
+                <p className="text-[50px] font-bold text-black">12+</p>
                 <p className="text-[20px] font-semibold text-black">
                   Projects Involved
                 </p>
@@ -82,7 +83,7 @@ const AboutMe = () => {
                 data-aos-delay="300"
                 className="bg-yellow-500 p-6 text-center"
               >
-                <p className="text-[50px] font-bold text-black">19</p>
+                <p className="text-[50px] font-bold text-black">11</p>
                 <p className="text-[20px] font-semibold text-black">
                   Projects Completed
                 </p>

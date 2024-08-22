@@ -64,10 +64,10 @@ const Hero = () => {
             className="hidden md:block"
           >
             <Image
-              src="/images/hero.png"
+              src="/images/hero-1.png"
               alt="hero"
-              width={400}
-              height={400}
+              width={570}
+              height={570}
               className="object-contain"
             />
           </div>
