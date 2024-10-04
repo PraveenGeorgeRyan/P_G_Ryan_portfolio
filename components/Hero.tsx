@@ -34,9 +34,9 @@ const Hero = () => {
               data-aos-delay="800"
               className="mt-[1.2rem] text-[15px] text-[#c4cfde] md:text-[17px]"
             >
-              I am a Full Stack Developer with a passion for web development. I
-              specialize in building websites and web applications using modern
-              technologies like Next.js, JavaScript, React and MongoDB.
+              I am a Frontend Developer with a passion for web/app development.
+              I specialize in building websites and web applications using
+              modern technologies like Next.js, JavaScript, React and MongoDB.
             </p>
             <div className="mt-8 flex items-center space-x-6">
               <Link href="#contact">
