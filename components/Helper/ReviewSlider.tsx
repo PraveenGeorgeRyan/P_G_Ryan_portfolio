@@ -36,25 +36,21 @@ const ReviewSlider = () => {
       <ClientReviewCard
         image="/images/user1.jpg"
         user="Hange Zoe"
-        role="web Developer"
         review="I was highly impressed with the clear communication and timely delivery. The website design exceeded my expectations and helped me"
       />
       <ClientReviewCard
         image="/images/user2.jpg"
         user="Ria Jones"
-        role="Full Stack Developer"
         review="The development process was smooth and efficient. The developer was always available to answer my questions and make adjustments."
       />
       <ClientReviewCard
         image="/images/user3.jpg"
         user="David"
-        role="Mern Developer"
         review="The developer's expertise in building user-friendly e-commerce platforms was evident throughout the project."
       />
       <ClientReviewCard
         image="/images/user4.jpg"
         user="lorren"
-        role="React Developer"
         review="The web app development process was collaborative and enjoyable. The developer created a user-friendly and engaging app"
       />
     </Carousel>

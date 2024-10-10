@@ -5,16 +5,10 @@ import React from "react";
 interface ClientReviewCardProps {
   image: string;
   user: string;
-  role: string;
   review: string;
 }
 
-const ClientReviewCard = ({
-  image,
-  user,
-  role,
-  review,
-}: ClientReviewCardProps) => {
+const ClientReviewCard = ({ image, user, review }: ClientReviewCardProps) => {
   return (
     <div className="m-2 rounded-lg transition-all duration-300 hover:bg-gray-700">
       <div className="rounded-xl border-2 border-gray-700 p-4">
@@ -43,7 +37,6 @@ const ClientReviewCard = ({
         <h1 className="mt-8 text-center text-[20px] font-medium text-white">
           {user}
         </h1>
-        <p className="mb-12 text-center text-[18px] text-yellow-400">{role}</p>
       </div>
     </div>
   );
