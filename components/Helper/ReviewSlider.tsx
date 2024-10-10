@@ -46,7 +46,7 @@ const ReviewSlider = () => {
       <ClientReviewCard
         image="/images/user3.jpg"
         user="David"
-        review="The developer's expertise in building user-friendly e-commerce platforms was evident throughout the project."
+        review="The developer's expertise in building user-friendly e-commerce platforms was evident throughout the project. I highly recommend him."
       />
       <ClientReviewCard
         image="/images/user4.jpg"

@@ -34,7 +34,7 @@ const ClientReviewCard = ({ image, user, review }: ClientReviewCardProps) => {
         <div>
           <SparklesIcon className="fixed right-0 size-24 text-white opacity-15" />
         </div>
-        <h1 className="mt-8 text-center text-[20px] font-medium text-white">
+        <h1 className="mt-8 text-center text-[20px] font-medium text-white pb-6">
           {user}
         </h1>
       </div>
