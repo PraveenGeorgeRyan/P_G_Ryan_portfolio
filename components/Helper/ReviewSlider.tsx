@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ClientReviewCard from "./ClientReviewCard";
@@ -34,24 +33,34 @@ const ReviewSlider = () => {
       itemClass="true"
     >
       <ClientReviewCard
-        image="/images/user1.jpg"
-        user="Hange Zoe"
+        image="/images/man.png"
+        user="Manish Kumar"
         review="I was highly impressed with the clear communication and timely delivery. The website design exceeded my expectations and helped me"
       />
       <ClientReviewCard
-        image="/images/user2.jpg"
-        user="Ria Jones"
+        image="/images/woman.png"
+        user="Dr. Suvarchala"
         review="The development process was smooth and efficient. The developer was always available to answer my questions and make adjustments."
       />
       <ClientReviewCard
-        image="/images/user3.jpg"
-        user="David"
-        review="The developer's expertise in building user-friendly e-commerce platforms was evident throughout the project. I highly recommend him."
+        image="/images/man.png"
+        user="James"
+        review="The developer's expertise in building user-friendly web platforms was evident throughout the project. I highly recommend him."
       />
       <ClientReviewCard
-        image="/images/user4.jpg"
-        user="lorren"
+        image="/images/woman.png"
+        user="Dr. Mamatha"
         review="The web app development process was collaborative and enjoyable. The developer created a user-friendly and engaging app"
+      />
+      <ClientReviewCard
+        image="/images/man.png"
+        user="Naveen Kumar"
+        review="The programmer maintained excellent communication and provided prompt support throughout the project. I highly recommend him."
+      />
+      <ClientReviewCard
+        image="/images/woman.png"
+        user="Mary"
+        review="The web interface featured an elegant design and straightforward usability. The developer was attentive and consistently accessible for any inquiries."
       />
     </Carousel>
   );
