@@ -26,9 +26,9 @@ const Services = () => {
             data-aos-delay="100"
           >
             <ServiceCard
-              title="React Website"
+              title="React/React Native Apps"
               num="02"
-              description="Develop interactive user interfaces with React, a popular JavaScript library for building dynamic web applications."
+              description="Develop interactive UIs with React/React Native, popular JavaScript libraries for building dynamic web/mobile apps."
             />
           </div>
 

@@ -9,7 +9,7 @@ const TypeWriteEffect = () => {
         1000,
         "a React Developer",
         1000,
-        "a Mern Developer",
+        "a Mobile Developer",
         1000,
         "a Designer",
         1000,

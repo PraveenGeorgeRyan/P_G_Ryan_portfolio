@@ -25,7 +25,10 @@ const Hero = () => {
             </h1>
             <div data-aos="fade-left" data-aos-delay="400">
               <h1 className="text-[25px] font-semibold leading-[2.6rem] text-white sm:text-[35px] lg:text-[40px] xl:text-[50px]">
-                Hi, I&apos;m <span className="text-yellow-300">Ryan</span>
+                Hi, 
+              </h1>
+              <h1 className="pt-4 text-[15px] font-semibold leading-[2.6rem] text-white sm:text-[25px] lg:text-[30px] xl:text-[40px]">
+                I&apos;m <span className="text-yellow-300">Praveen George Ryan</span>
               </h1>
               <TypeWriteEffect />
             </div>
@@ -35,8 +38,8 @@ const Hero = () => {
               className="mt-[1.2rem] text-[15px] text-[#c4cfde] md:text-[17px]"
             >
               I am a Frontend Developer with a passion for web/app development.
-              I specialize in building websites and web applications using
-              modern technologies like Next.js, JavaScript, React and MongoDB.
+              I specialize in building websites and mobile applications using
+              modern technologies like Next.js, JavaScript, React/React Native and MongoDB.
             </p>
             <div className="mt-8 flex items-center space-x-6">
               <Link href="#contact">

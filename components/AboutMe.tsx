@@ -13,7 +13,7 @@ const AboutMe = () => {
               your business
             </h1>
             <p className="mt-[1.3rem] text-[15px] text-white opacity-75">
-              I'm a passionate web developer with almost 1.9 years of
+              I'm a passionate web developer with almost 2 years of
               experience, bringing expertise in frontend (UI/React), backend,
               and app development. I leverage the MERN Stack to create
               beautiful, user-friendly websites and applications that deliver
@@ -30,7 +30,7 @@ const AboutMe = () => {
               </div>
               <div className="flex items-center space-x-4">
                 <CheckIcon className="size-8 text-yellow-400" />
-                <p className="text-[18px] text-white">Backend Development</p>
+                <p className="text-[18px] text-white">Mobile Development</p>
               </div>
               <div className="flex items-center space-x-4">
                 <CheckIcon className="size-8 text-yellow-400" />
@@ -49,7 +49,7 @@ const AboutMe = () => {
                 data-aos-anchor-placement="top-center"
                 className="bg-yellow-500 p-6 text-center"
               >
-                <p className="text-[50px] font-bold text-black">1.9</p>
+                <p className="text-[50px] font-bold text-black">2</p>
                 <p className="text-[20px] font-semibold text-black">
                   Years Experience
                 </p>
