@@ -11,6 +11,21 @@ const Project = () => {
           </h1>
         </div>
         <a
+          href="https://www.zionel.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ProjectCard
+            title="Zionel - Digital Marketing Agency"
+            tech1="React"
+            tech2="Next.js"
+            tech3="CSS"
+            tech4="TypeScript"
+            image="/images/p6-1.png"
+            description="A comprehensive digital marketing agency website that showcases services, portfolio, and client success stories. It features a modern, responsive design with interactive elements and smooth animations. The website is built using React and Next.js, incorporating best practices in UI/UX design to ensure an engaging and professional presentation for potential clients."
+          />
+        </a>
+        <a
           href="https://dr-suvarchala-womencare-j29o.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
