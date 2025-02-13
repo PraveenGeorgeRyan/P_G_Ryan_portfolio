@@ -55,8 +55,11 @@ const Contact = () => {
               effective solutions. Let's discuss how I can turn your vision into
               reality.
             </p>
-            <h1 className="my-8 text-[30px] font-bold text-yellow-300 ">
+            <h1 className="mt-8 mb-4 text-[30px] font-bold text-yellow-300 ">
               +91 9705201373
+            </h1>
+            <h1 className="mb-8 text-[30px] font-bold text-yellow-300 ">
+              +91 9704101373
             </h1>
           </div>
           <div>

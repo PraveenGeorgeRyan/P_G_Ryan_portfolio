@@ -67,22 +67,28 @@ const Footer = () => {
               Hyderabad , Telangana, India
             </p>
           </div>
-          <div className="mt-4 flex items-center space-x-2">
+          <div className="mt-3 flex items-center space-x-2">
             <EnvelopeIcon className="size-4 text-yellow-300" />
             <p className="text-[17px] font-normal text-white opacity-75">
               <a href="mailto:p.g.ryan333gmail.com">p.g.ryan333@gmail.com</a>{" "}
             </p>
           </div>
-          <div className="mt-4 flex items-center space-x-2">
+          <div className="mt-3 flex items-center space-x-2">
             <PhoneIcon className="size-4 text-yellow-300" />
             <p className="text-[17px] font-normal text-white opacity-75">
               +91 9705201373
             </p>
           </div>
+          <div className="mt-3 flex items-center space-x-2">
+            <PhoneIcon className="size-4 text-yellow-300" />
+            <p className="text-[17px] font-normal text-white opacity-75">
+              +91 9704101373
+            </p>
+          </div>
         </div>
       </div>
       <div className="mx-auto mt-[1.4rem] w-4/5 text-white opacity-70">
-        &#169; Copyright PG Ryan 2024
+        &#169; Copyright PG Ryan 2025
       </div>
     </div>
   );
