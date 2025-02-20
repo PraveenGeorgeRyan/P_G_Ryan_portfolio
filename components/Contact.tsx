@@ -19,7 +19,7 @@ const Contact = () => {
     const message = event.target.elements.message.value;
 
     // Fetch
-    const res = await fetch("https://p-g-ryan-portfolio.vercel.app/api/email", {
+    const res = await fetch("https://www.praveengeorgeryan.online/api/email", {
       method: "POST",
       body: JSON.stringify({
         senderEmail,
