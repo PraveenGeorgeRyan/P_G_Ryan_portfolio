@@ -11,7 +11,7 @@ const Project = () => {
           </h1>
         </div>
         <a
-          href="https://www.zionel.com/"
+          href="https://zionel.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
