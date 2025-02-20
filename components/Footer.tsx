@@ -20,9 +20,9 @@ const Footer = () => {
           <p className="mt-[1.3rem] font-semibold text-yellow-300 underline">
             <a
               className="text-yellow-400 underline"
-              href="mailto:p.g.ryan333gmail.com"
+              href="mailto:praveengeorgeryan.info@gmail.com"
             >
-              p.g.ryan333@gmail.com
+              praveengeorgeryan.info@gmail.com
             </a>{" "}
           </p>
         </div>
@@ -70,19 +70,19 @@ const Footer = () => {
           <div className="mt-3 flex items-center space-x-2">
             <EnvelopeIcon className="size-4 text-yellow-300" />
             <p className="text-[17px] font-normal text-white opacity-75">
-              <a href="mailto:p.g.ryan333gmail.com">p.g.ryan333@gmail.com</a>{" "}
-            </p>
-          </div>
-          <div className="mt-3 flex items-center space-x-2">
-            <PhoneIcon className="size-4 text-yellow-300" />
-            <p className="text-[17px] font-normal text-white opacity-75">
-              +91 9705201373
+              <a href="mailto:praveengeorgeryan.info@gmail.com">praveengeorgeryan.info@gmail.com</a>{" "}
             </p>
           </div>
           <div className="mt-3 flex items-center space-x-2">
             <PhoneIcon className="size-4 text-yellow-300" />
             <p className="text-[17px] font-normal text-white opacity-75">
               +91 9704101373
+            </p>
+          </div>
+          <div className="mt-3 flex items-center space-x-2">
+            <PhoneIcon className="size-4 text-yellow-300" />
+            <p className="text-[17px] font-normal text-white opacity-75">
+              +91 9705201373
             </p>
           </div>
         </div>

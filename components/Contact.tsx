@@ -56,10 +56,10 @@ const Contact = () => {
               reality.
             </p>
             <h1 className="mt-8 mb-4 text-[30px] font-bold text-yellow-300 ">
-              +91 9705201373
+              +91 9704101373
             </h1>
             <h1 className="mb-8 text-[30px] font-bold text-yellow-300 ">
-              +91 9704101373
+              +91 9705201373
             </h1>
           </div>
           <div>
@@ -68,9 +68,9 @@ const Contact = () => {
               Feel free to reach out directly at{" "}
               <a
                 className="text-yellow-400 underline"
-                href="mailto:p.g.ryan333gmail.com"
+                href="mailto:praveengeorgeryan.info@gmail.com"
               >
-                p.g.ryan333@gmail.com
+                praveengeorgeryan.info@gmail.com
               </a>{" "}
               or through this form
             </p>
